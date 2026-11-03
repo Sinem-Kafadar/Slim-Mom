@@ -1,0 +1,37 @@
+.page {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: calc(100vh - 150px);
+    padding: 80px 0 48px;
+}
+
+.container {
+    box-sizing: border-box;
+    width: calc(100% - 40px);
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .page {
+        padding-top: 100px;
+    }
+
+    .container {
+        width: calc(100% - 64px);
+        max-width: 768px;
+    }
+}
+
+/* Masaüstü */
+@media screen and (min-width: 1280px) {
+    .page {
+        padding-top: 110px;
+    }
+
+    .container {
+        width: calc(100% - 300px);
+        max-width: 1380px;
+    }
+}

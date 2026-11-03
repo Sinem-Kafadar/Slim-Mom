@@ -1,0 +1,74 @@
+.backgroundHome,
+.backgroundAuth,
+.backgroundDiaryCalc {
+    min-height: 100vh;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .backgroundHome {
+        background-image: url('../../assets/png/backgroundTab_x1.png');
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 768px 563px;
+    }
+
+    .backgroundAuth {
+        background-image: url('../../assets/png/backgroundTabAuth_x1.png');
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 752px 944px;
+    }
+}
+
+/* TABLET — RETINA EKRANLAR */
+@media screen and (min-width: 768px) and (max-width: 1279px) and (min-resolution: 2dppx) {
+    .backgroundHome {
+        background-image: url('../../assets/png/backgroundTab_x2.png');
+    }
+
+    .backgroundAuth {
+        background-image: url('../../assets/png/backgroundTabAuth_x2.png');
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1280px) {
+
+    .backgroundHome,
+    .backgroundAuth {
+        background-image: url('../../assets/png/backgroundAuthDeskTop_x1.png');
+        background-position: right center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .backgroundDiaryCalc {
+        background-image:
+            url('../../assets/png/backgroundDiaryCalcDeskTop_x1.png'),
+            linear-gradient(to right,
+                var(--bg-color, #fff) 59.6%,
+                var(--scroll-color, #f0f1f3) 59.6%);
+
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: contain, 100% 100%;
+    }
+}
+
+/* DESKTOP — RETINA EKRANLAR */
+@media screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+
+    .backgroundHome,
+    .backgroundAuth {
+        background-image: url('../../assets/png/backgroundAuthDeskTop_x2.png');
+    }
+
+    .backgroundDiaryCalc {
+        background-image:
+            url('../../assets/png/backgroundDiaryCalcDeskTop_x2.png'),
+            linear-gradient(to right,
+                var(--bg-color, #fff) 59.6%,
+                var(--scroll-color, #f0f1f3) 59.6%);
+    }
+}

@@ -1,0 +1,73 @@
+:root {
+    --main-color: #212121;
+    --second-color: #9b9faa;
+    --third-color: #264061;
+
+    --accent-color: #fc842d;
+
+    --scroll-color: #f0f1f3;
+    --bg-color: #ffffff;
+
+    --btn-box-shadow: 0 4px 10px rgba(252, 132, 45, 0.5);
+
+    --border-color: #e0e0e0;
+
+    --block-modal-color: #eff1f3;
+    --modal-overlay-color: rgba(33, 33, 33, 0.12);
+}
+
+body {
+    margin: 0;
+    color: var(--main-color);
+    background-color: var(--bg-color);
+
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button,
+input {
+    font-family: inherit;
+}
+
+button {
+    cursor: pointer;
+    padding: 0;
+}
+
+@media screen and (min-width: 1280px) {
+    #modal-nav {
+        display: none;
+    }
+}

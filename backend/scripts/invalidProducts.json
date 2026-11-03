@@ -1,0 +1,47 @@
+[
+  {
+    "index": 1027,
+    "item": {
+      "categories": "fruits",
+      "weight": 100,
+      "title": "Maklura (Adam's apple)",
+      "groupBloodNotAllowed": [
+        null,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  },
+  {
+    "index": 2030,
+    "item": {
+      "categories": "vegetables and herbs",
+      "weight": 100,
+      "title": "Perilla",
+      "groupBloodNotAllowed": [
+        null,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  },
+  {
+    "index": 2149,
+    "item": {
+      "categories": "vegetables and herbs",
+      "weight": 100,
+      "title": "Saxifrage Thigh",
+      "groupBloodNotAllowed": [
+        null,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  }
+]

@@ -1,0 +1,23 @@
+.section {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .section {
+        padding-top: 100px;
+    }
+}
+
+/* Masaüstü */
+@media screen and (min-width: 1280px) {
+    .section {
+        padding-top: 148px;
+        padding-bottom: 32px;
+    }
+
+    .section>div {
+        transform: translateX(-8px);
+    }
+}

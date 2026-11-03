@@ -1,23 +1,58 @@
 {
-  "name": "goit-node-js",
+  "name": "slim-mom",
   "version": "1.0.0",
-  "description": "goit-node-js",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "get-all": "node src/scripts/getAllContacts",
-    "generate": "node src/scripts/generateContacts.js",
-    "add-one": "node src/scripts/addOneContact.js",
-    "count": "node src/scripts/countContacts.js",
-    "remove-last": "node src/scripts/removeLastContact.js",
-    "remove-all": "node src/scripts/removeAllContacts.js"
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.13.0",
+    "axios": "^1.9.0",
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "clsx": "^2.1.1",
+    "formik": "^2.4.6",
+    "framer-motion": "^12.16.0",
+    "gsap": "^3.13.0",
+    "i18next": "^25.2.1",
+    "i18next-browser-languagedetector": "^8.1.0",
+    "lodash.debounce": "^4.0.8",
+    "modern-normalize": "^3.0.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-calendar": "^6.0.0",
+    "react-datepicker": "^8.4.0",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^15.5.2",
+    "react-icons": "^5.5.0",
+    "react-redux": "^9.3.1",
+    "react-refresh": "^0.11.0",
+    "react-router-dom": "^7.6.2",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.10.1",
+    "react-toastify": "^11.0.5",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0",
+    "yup": "^1.6.1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@eslint/js": "^9.2.0",
-    "eslint": "^9.2.0",
-    "globals": "^15.1.0"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

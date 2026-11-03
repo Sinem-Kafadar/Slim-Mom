@@ -1,0 +1,146 @@
+.loginForm {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+.formInput {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 37px;
+    padding: 0 0 19px;
+    margin: 0 0 39px;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.215;
+    letter-spacing: 0.04em;
+    color: var(--main-color, #858585);
+
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border-color, #ddd);
+    border-radius: 0;
+}
+
+.formInput:focus {
+    outline: none;
+}
+
+.formInput::placeholder {
+    color: var(--second-color, #858585);
+    opacity: 1;
+}
+
+.passwordWrapper {
+    position: relative;
+    width: 100%;
+    margin-bottom: 39px;
+}
+
+.passwordWrapper .formInput {
+    margin-bottom: 0;
+}
+
+.passInput {
+    padding-right: 36px;
+}
+
+.pswdVisBtn {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.pswdBtnImg {
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+.errorMessage {
+    display: block;
+    margin-top: -33px;
+    margin-bottom: 22px;
+
+    color: #d93025;
+    font-size: 10px;
+    line-height: 1.3;
+}
+
+.btnCont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 21px;
+}
+
+
+.registerButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 182px;
+    height: 44px;
+    padding: 0 16px;
+    color: var(--accent-color, #ff751d);
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    background: transparent;
+    border: 2px solid var(--accent-color, #ff751d);
+    border-radius: 30px;
+    cursor: pointer;
+    transition:
+        color 250ms linear,
+        background-color 250ms linear;
+}
+
+.registerButton:hover:not(:disabled),
+.registerButton:focus-visible:not(:disabled) {
+    color: #fff;
+    background: var(--accent-color, #ff751d);
+}
+
+.registerButton:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.successMessage {
+    margin-top: 12px;
+    color: #237a3b;
+    font-size: 12px;
+}
+
+.apiErrorMessage {
+    margin-top: 12px;
+    color: #d93025;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .loginForm {
+        width: 264px;
+        margin: 0;
+    }
+
+    .btnCont {
+        justify-content: flex-start;
+    }
+}
+
